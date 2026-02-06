@@ -19,14 +19,16 @@ class Settings(BaseSettings):
     # API
     API_V1_PREFIX: str = "/api/v1"
     
-    # CORS
-    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:3001"]
+    # CORS - Can be set via environment variable as comma-separated string
+    CORS_ORIGINS: List[str] = Field(default=["http://localhost:3000", "http://localhost:3001"])
     
     @validator("CORS_ORIGINS", pre=True)
     def assemble_cors_origins(cls, v):
-        if isinstance(v, str):
+        if isinstance(v, str) and v:
             return [i.strip() for i in v.split(",")]
-        return v
+        elif isinstance(v, list):
+            return v
+        return ["http://localhost:3000"]  # Fallback
     
     # Database
     DATABASE_URL: str
