@@ -31,7 +31,7 @@ class Settings(BaseSettings):
         return ["http://localhost:3000"]  # Fallback
     
     # Database
-    DATABASE_URL: str = "postgresql://financial_health_db_0iyg_user:qxwUhQYCKQPzTnUAO3OI6gyULJWz0mqX@dpg-d631gni4d50c73b50h30-a/financial_health_db_0iyg"
+    DATABASE_URL: str = "sqlite:///./financial_health.db"
     DATABASE_ENCRYPTION_KEY: str = "default-encryption-key-change-in-prod"
     
     # AI/LLM
