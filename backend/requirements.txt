@@ -16,12 +16,8 @@ numpy>=1.24.0,<2.0.0
 openpyxl==3.1.2
 PyPDF2==3.0.1
 
-# Security & Authentication
-python-jose[cryptography]==3.3.0
-passlib[argon2]==1.7.4
-argon2-cffi==23.1.0
+# Security & Authentication (minimal - no login system)
 cryptography==42.0.0
-pyjwt==2.8.0
 
 # Validation & Serialization
 pydantic==2.5.3
