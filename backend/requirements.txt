@@ -1,31 +1,31 @@
 # Web Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-python-multipart==0.0.6
+fastapi>=0.100.0,<1.0.0
+uvicorn[standard]>=0.27.0,<1.0.0
+python-multipart>=0.0.6,<1.0.0
 
-# Database
-sqlalchemy==2.0.25
-psycopg2-binary==2.9.9
+# Database - Python 3.13 compatible versions
+sqlalchemy>=2.0.35,<3.0.0
+psycopg2-binary>=2.9.9,<3.0.0
 
 # AI/LLM Integration
-google-genai==0.3.0
+google-genai>=0.3.0,<1.0.0
 
-# Data Processing - Use versions compatible with Python 3.13
+# Data Processing - Python 3.13 compatible
 pandas>=2.0.0,<3.0.0
 numpy>=1.24.0,<2.0.0
-openpyxl==3.1.2
-PyPDF2==3.0.1
+openpyxl>=3.1.0,<4.0.0
+PyPDF2>=3.0.0,<4.0.0
 
 # Security & Authentication (minimal - no login system)
-cryptography==42.0.0
+cryptography>=42.0.0,<43.0.0
 
-# Validation & Serialization
+# Validation & Serialization - Python 3.13 compatible
 pydantic>=2.0.0,<3.0.0
 pydantic-settings>=2.0.0,<3.0.0
-email-validator==2.1.0
+email-validator>=2.1.0,<3.0.0
 
 # Utilities
-python-dotenv==1.0.0
+python-dotenv>=1.0.0,<2.0.0
 
 # Rate Limiting
-slowapi==0.1.9
+slowapi>=0.1.9,<1.0.0
