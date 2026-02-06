@@ -1,0 +1,22 @@
+Category,Item,Amount
+Revenue,Product Sales - Category A,1200000
+Revenue,Product Sales - Category B,800000
+Revenue,Service Revenue,500000
+Revenue,Other Income,50000
+Expenses,Cost of Goods Sold,1100000
+Expenses,Salaries and Wages,450000
+Expenses,Rent,150000
+Expenses,Utilities - Electricity,35000
+Expenses,Utilities - Water,5000
+Expenses,Marketing and Advertising,75000
+Expenses,Insurance,25000
+Expenses,Maintenance and Repairs,40000
+Expenses,Office Supplies,15000
+Expenses,Transportation,30000
+Expenses,Professional Fees,20000
+Expenses,Depreciation,100000
+Expenses,Interest on Loans,90000
+Expenses,Other Operating Expenses,35000
+Taxes,Income Tax Paid,105000
+Taxes,GST Paid,195000
+Taxes,Property Tax,10000

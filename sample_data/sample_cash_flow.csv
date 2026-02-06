@@ -1,0 +1,16 @@
+Category,Description,Amount
+Operating,Cash Received from Customers,2400000
+Operating,Payments to Suppliers,-1050000
+Operating,Salary Payments,-450000
+Operating,Rent Paid,-150000
+Operating,Utilities Paid,-40000
+Operating,Marketing Expenses,-75000
+Operating,Other Operating Payments,-80000
+Investing,Purchase of Machinery,-200000
+Investing,Purchase of Vehicle,-150000
+Investing,Sale of Old Equipment,50000
+Financing,Bank Loan Received,500000
+Financing,Loan Repayment - Principal,-180000
+Financing,Loan Repayment - Interest,-90000
+Financing,Owner's Investment,200000
+Financing,Dividend Paid,-100000

@@ -1,0 +1,16 @@
+Category,Item,Amount
+Assets,Cash and Bank Balance,750000
+Assets,Accounts Receivable,450000
+Assets,Inventory,350000
+Assets,Prepaid Expenses,50000
+Assets,Fixed Assets - Land,2000000
+Assets,Fixed Assets - Building,1500000
+Assets,Fixed Assets - Machinery,800000
+Assets,Fixed Assets - Vehicles,300000
+Liabilities,Accounts Payable,280000
+Liabilities,Short-term Loans,200000
+Liabilities,Credit Card Outstanding,50000
+Liabilities,Long-term Bank Loan,1500000
+Liabilities,Term Loan,800000
+Equity,Owners Capital,3000000
+Equity,Retained Earnings,370000
