@@ -31,8 +31,8 @@ class Settings(BaseSettings):
         return ["http://localhost:3000"]  # Fallback
     
     # Database
-    DATABASE_URL: str
-    DATABASE_ENCRYPTION_KEY: str
+    DATABASE_URL: str = "postgresql://financial_health_db_0iyg_user:qxwUhQYCKQPzTnUAO3OI6gyULJWz0mqX@dpg-d631gni4d50c73b50h30-a/financial_health_db_0iyg"
+    DATABASE_ENCRYPTION_KEY: str = "default-encryption-key-change-in-prod"
     
     # AI/LLM
     GEMINI_API_KEY: Optional[str] = None
@@ -56,14 +56,14 @@ class Settings(BaseSettings):
     GST_PASSWORD: Optional[str] = None
     
     # Security
-    JWT_SECRET_KEY: str
+    JWT_SECRET_KEY: str = "default-jwt-secret-key-change-in-production"
     JWT_ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
     
     # Encryption
-    ENCRYPTION_KEY: str
-    AES_ENCRYPTION_KEY: str
+    ENCRYPTION_KEY: str = "WoBWbucaNl_fSyqq7grjr9E1IQlvEtn2f_mSN2Dy05s="
+    AES_ENCRYPTION_KEY: str = "d3v-a3s-k3y-for-t3sting-only-32ch"
     
     # File Upload
     MAX_UPLOAD_SIZE_MB: int = 50
